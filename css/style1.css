@@ -1,0 +1,171 @@
+.nav_logo{
+    width:150px;
+    height: 50px;
+    margin-top:-15px;
+}
+
+#hero div {
+    position:absolute;
+    z-index: 0;
+}
+#hero div.previous {
+    z-index: 1;
+}
+#hero div.current {
+    z-index: 2;
+}
+
+
+@media (min-width: 576px) {
+    .welcom-img{
+        height: 650px;
+        width: 1300px;
+    
+    }
+    #Sur{
+        z-index:3 ;
+        margin-top: 300px;
+    }
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+    .title-img{
+        margin-top:45px;
+        width:30%;
+
+        
+    }
+ }
+
+
+ @media (max-width: 576px) {
+    .welcom-img{
+        height: 220px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:100px;
+    }
+    #hero {
+        height:200px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+    
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-img{
+    width:100%;
+}
+
+#hover-white{
+    background-color: #26a0e7 ;
+    color:white;
+    font-weight: bold ;
+
+
+}
+#hover-white:hover{
+        background-color: #ffffff ;
+        border:1px solid black;
+        color:black ;
+        
+}
+
+.social-logo{
+    font-size:100px ;
+    color : pink ;
+}
+
+.about-text{
+    text-align: justify;
+
+}
+#about-div{
+    margin-top:35px;
+}
+#about-img{
+    width: 100%;
+    margin-top : 30px;
+}
+
+.act-box{
+    padding-top: 20px;
+}
+.act-text{
+    padding: 20px 50px 50px 50px;
+    line-height: 30px;
+    color: antiquewhite ;
+    text-align: justify;
+    font-size: 110%;
+    background-color: #26a0e7;
+
+}
+.act-title{
+    padding-left: 50px;
+    padding-bottom: 15px ;
+    font-weight: bold;
+    color:rgb(150, 150, 150)
+}
+.act-title-box{
+    background-color: white;
+    color: #26a0e7;
+    border: 8px solid #26a0e7 ;
+}

@@ -1,0 +1,44 @@
+/*
+* Template Name : Rictor - Onepage Multipurpose Template
+* Version : 1.0.0
+* Created by : Themesdesign
+* File : Template default color
+*/
+
+.email a:hover,.top_socials a:hover,.text-custom,.intro-title span  {
+  color: #1ea7ff !important;
+}
+
+.filter-list a.current,.bg-custom,.btn-custom {
+  background-color: #1ea7ff;
+}
+
+.portfolio-img-overlay span {
+  background: url(../../images/plus.png) no-repeat center center rgba(30, 167, 255,0.7);
+}
+
+.btn-custom  {
+  border: 1px solid #1ea7ff !important;
+}
+
+.navbar-custom .navbar-nav li.active a,.navbar-sticky .navbar-nav li.active a,.navbar-sticky-half .navbar-nav li.active a  {
+  border-color: #1ea7ff;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+  background-color: #1ea7ff !important;
+  border: 1px solid #1ea7ff !important;
+}
+@media (max-width: 768px){
+  .navbar-custom .navbar-nav li.active a {
+    color: #1ea7ff!important;
+  }
+}
