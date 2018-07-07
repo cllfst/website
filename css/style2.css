@@ -1,0 +1,261 @@
+.w3layouts_work_grid_left{
+	float:left;
+	width:50%;
+	position:relative;
+}
+.w3layouts_work_grid_left_pos{
+	position: absolute;
+    top: 18%;
+    right: -26%;
+    width: 60%;
+}
+.w3layouts_work_grid_right {
+    float: right;
+    width: 50%;
+    padding: 5em 13em 0em 6em;
+    margin-top: 5em;
+}
+.w3layouts_work_grid_left_pos img {
+    border: 10px solid #ffffff;
+	box-shadow: 0 0 15px rgba(98,98,98,0.32);
+	-webkit-box-shadow: 0 0 15px rgba(98,98,98,0.32);
+}
+.w3layouts_work_grid_right h4{
+	font-size:1em;
+    color: #01a2a6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.w3layouts_work_grid_right h4 i{
+    color: #f36371!important;
+}
+.w3layouts_work_grid_right h5 {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+	text-align:right;
+    margin-top: 10px;
+    color: #212121;
+    line-height: 1.4em;
+    text-transform: capitalize;
+}
+.w3layouts_work_grid_right p {
+    margin: 2em 0 0;
+    color: #444;
+    font-size: 16px;
+    line-height: 2.2em;
+    letter-spacing: 1px;
+}
+.w3layouts_work_grid_right p:nth-child(4) {
+    color: #f36371;
+    text-align: right;
+    margin-top: 0!important;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media(max-width:1280px){
+	.w3layouts_work_grid_right {
+		padding: 5em 11em 0em 5em;
+		margin-top: 2.5em;
+	}
+	.textbox h4 {
+		font-size: 1.7em;
+	}
+.w3layouts_work_grid_left_pos {
+    top: 6%;
+    right: -16%;
+    width: 60%;
+}
+}
+
+
+
+
+
+@media(max-width:1440px){
+	.w3layouts_work_grid_left_pos {
+    top: 12%;
+    right: -22%;
+    width: 60%;
+}
+}
+@media(max-width:1366px){
+
+	.w3layouts_work_grid_right {
+		padding: 5em 11em 0em 6em;
+		margin-top: 4em;
+	}
+}
+
+@media(max-width:1080px){
+	
+	.w3layouts_work_grid_left {
+		width: 45%;
+	}
+	.w3layouts_work_grid_right h4 {
+		font-size: 15px;
+	}
+	.w3layouts_work_grid_right {
+		padding: 1em 9em 0em 1em;
+		margin-top: 2.5em;
+	}
+	.w3layouts_work_grid_right h5 {
+		font-size: 1.3em;
+	
+}
+.w3layouts_work_grid_left_pos {
+    top: 6%;
+    right: -8%;
+    width: 50%;
+}
+}
+@media(max-width:1024px){
+	
+	.w3layouts_work_grid_right {
+		margin-top: 2em;
+	}
+	
+}
+@media(max-width:991px){
+	.w3layouts_work_grid_right {
+		margin-top: 1em;
+		padding: 1em 6em 0em 1em;
+	}
+	
+}
+@media(max-width:900px){
+	
+	.w3layouts_work_grid_right p {
+		margin: 1em 0 0;
+	}
+}
+@media(max-width:800px){
+	
+	.w3layouts_work_grid_right p {
+		font-size: 15px;
+		line-height: 1.8em;
+		letter-spacing: 0.5px;
+	}
+	.w3layouts_work_grid_right h4 {
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	.w3layouts_work_grid_right {
+		margin-top: 0.5em;
+	}
+	.w3layouts_work_grid_right h5 {
+		font-size: 1.2em;
+	}
+	
+}
+@media(max-width:768px){
+	
+	.w3layouts_work_grid_left_pos img {
+		border: 7px solid #ffffff;
+	}
+	.w3layouts_work_grid_right p {
+		font-size: 14.5px;
+		line-height: 2em;
+	}
+	
+	.w3layouts_work_grid_right h5 {
+		font-size: 1.1em;
+	}
+	
+}
+@media(max-width:736px){
+	
+	.w3layouts_work_grid_left {
+		width: 70%;
+		float: none;
+		margin: 0 auto;
+	}
+	.w3layouts_work_grid_right {
+		float: none;
+		width: 100%;
+		margin-top: 0em;
+		padding: 2em 7em 0em;
+	}
+
+}
+@media(max-width:667px){
+	
+	.w3layouts_work_grid_left {
+		width: 80%;
+	}
+	.w3layouts_work_grid_right {
+		padding: 2em 4em 0em;
+	}
+
+.w3layouts_work_grid_left_pos {
+    position: absolute;
+    top: 6%;
+    right: -3%;
+    width: 50%;
+}
+
+}
+@media(max-width:480px){
+
+	.w3layouts_work_grid_right p {
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		line-height: 30px;
+	}
+	.w3layouts_work_grid_right h4 {
+		font-size: 17px;
+	}
+	.copy p {
+		font-size: 13px;
+		line-height: 29px;
+		padding: 10px 20px;
+	}
+	
+}
+@media(max-width:414px){
+	
+
+	.w3layouts_work_grid_right {
+		padding: 2em 2.5em 0em;
+	}
+	.w3layouts_work_grid_right h5 {
+		font-size: 1em;
+		letter-spacing: 1.5px;
+	}
+	.w3layouts_work_grid_right p:nth-child(4) {
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+
+.w3layouts_work_grid_left_pos {
+    top: 6%;
+    right: 19%;
+    width: 59%;
+
+}
+}
+@media(max-width:384px){
+	
+	.w3layouts_work_grid_left_pos {
+		top: 14%;
+		width: 65%;
+	}
+	.w3layouts_work_grid_right {
+    padding: 5em 2.5em 0em;
+}
+}
+
+@media(max-width:320px){
+	
+	.w3layouts_work_grid_right {
+    padding: 5em 1.9em 0em;
+}
+	.w3layouts_work_grid_left {
+		width: 85%;
+	}
+	.w3layouts_work_grid_left_pos {
+		top: 10%;
+		width: 72%;
+	}
+	
+}

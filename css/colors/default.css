@@ -6,19 +6,19 @@
 */
 
 .email a:hover,.top_socials a:hover,.text-custom,.intro-title span  {
-  color: #1ea7ff !important;
+  color: #78bbe6 !important;
 }
 
 .filter-list a.current,.bg-custom,.btn-custom {
-  background-color: #1ea7ff;
+  background-color: rgb(120, 187, 230);
 }
 
 .portfolio-img-overlay span {
-  background: url(../../images/plus.png) no-repeat center center rgba(30, 167, 255,0.7);
+  background: url(../../images/plus.png) no-repeat center center rgba(120, 187, 230,0.7);
 }
 
 .btn-custom  {
-  border: 1px solid #1ea7ff !important;
+  border: 1px solid #78bbe6 !important;
 }
 
 .navbar-custom .navbar-nav li.active a,.navbar-sticky .navbar-nav li.active a,.navbar-sticky-half .navbar-nav li.active a  {

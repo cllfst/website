@@ -148,24 +148,35 @@
 
 .act-box{
     padding-top: 20px;
+    background-color: #d5eeff;
+
 }
 .act-text{
     padding: 20px 50px 50px 50px;
     line-height: 30px;
-    color: antiquewhite ;
+    color: #696969 ;
     text-align: justify;
-    font-size: 110%;
-    background-color: #26a0e7;
+    font-size: 115%;
 
 }
 .act-title{
     padding-left: 50px;
     padding-bottom: 15px ;
     font-weight: bold;
-    color:rgb(150, 150, 150)
+    color:white
 }
 .act-title-box{
-    background-color: white;
-    color: #26a0e7;
-    border: 8px solid #26a0e7 ;
+    background-color: #1b435d;
+    padding: 20px
+}
+
+.border{
+    border :5px solid black;
+}
+
+.position{
+    position: relative;
+    left:6px;
+
+
 }
