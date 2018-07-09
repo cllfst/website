@@ -1005,33 +1005,10 @@ border-color: rgba(38, 44, 48, 0.2);
   border: none;
   height: 44px;
 }
-/*========================================= 
-     18.FOOTER COPYRIGHT
-  ==========================================*/
-.footer .copy-rights,.footer .social {
-  margin: 0;
-  color: rgba(255, 255, 255, 0.5);
-  padding: 30px 40px;
-}
-.footer{
-  background-color: #000;
-}
-.copy-rights{
-  line-height: 36px;
-}
-.social li a {
-  display: block;
-  color: #777 !important;
-  font-size: 20px;
-  line-height: 36px;
-  padding:0 8px;
-  text-align: center;
-  text-decoration: none !important;
-  transition: all 0.3s;
-}
-.social li a:hover {
-  color: #f5f5f5 !important;
-}
+
+
+
+
 /*=====================================
   19.RESPONSIVE
 ====================================*/

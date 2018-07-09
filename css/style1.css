@@ -1,3 +1,165 @@
+/*-- social-icons --*/
+.social_icons {
+    text-align: center;
+}
+.social{
+    position:relative;
+    margin: 10px auto 3px;
+}
+.social a{
+    position: relative;
+    display: inline-block;
+    width:34px;
+    height:34px;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+}
+.social .fb{
+    background: #78bbe6;
+}
+.social .fb:before,
+.social .fb:after{
+    border-color:#78bbe6;
+}
+.social .tw{
+    background: #78bbe6;
+}
+.social .tw:before,
+.social .tw:after{
+    border-color: #78bbe6;
+}
+
+.social .gp{
+    background: #78bbe6;
+}
+.social .gp:before,
+.social .gp:after
+{
+    border-color: #78bbe6;
+}
+
+.social .lin{
+    background: #3a9bdc;
+}
+.social .lin:before,
+.social .lin:after
+{
+    border-color: #3a9bdc;
+}
+.social a:before,
+.social a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    background: transparent;
+    top: 0; bottom: 0; left: 0; right: 0;
+    border-radius: 50%;
+    transition: .3s all;
+    border: 3px solid;
+}
+.social a:hover:after{
+   -webkit-transform: scale(1.5);
+}
+.social a:hover:before{
+    -webkit-transform: scale(1);
+    transition: .3s all;
+    opacity: 0;
+}
+
+.connect-social ul li {
+	display: inline-block;
+}
+.social li a {
+    display: block;
+    font-size: 20px;
+    padding:0 8px;
+    text-align: center;
+    text-decoration: none !important;
+    transition: all 0.3s;
+}
+.connect-social ul li a{
+	-webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.connect-social ul li a i {
+    color: #fff;
+    line-height: 34px;
+    font-size: 1em;
+    border-radius: 50%;
+}
+
+/*-- Footer-Social-Icons --*/
+
+
+
+
+/*--copy-right--  color: rgba(255, 255, 255, 0.5); */
+.copy-rights{
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 130%;
+}
+/*--copy-right--*/
+
+
+
+/*-- to-top --*/
+.scrolltop {
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+    right:10px;	
+    z-index: 999;
+}
+.scroll {
+	position:absolute;
+	right:20px;
+	bottom:20px;
+	background:#b2b2b2;
+	background:rgba(178,178,178,0.7);
+	padding:20px;
+	text-align: center;
+	margin: 0 0 0 0;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover {
+	background:rgba(178,178,178,1.0);
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 		
+}
+.scroll:hover .fa {
+	padding-top:-10px;
+}
+.scroll .fa {
+	font-size:30px;
+	margin-top:-5px;
+	margin-left:1px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+}
+
+
+/*-- //to-top --*/ 
+
+
 .nav_logo{
     width:150px;
     height: 50px;
@@ -116,7 +278,7 @@
 }
 
 #hover-white{
-    background-color: #26a0e7 ;
+    background-color: #DD4B39 ;
     color:white;
     font-weight: bold ;
 
@@ -179,4 +341,10 @@
     left:6px;
 
 
+}
+
+
+
+.margin-b-50{
+    margin-bottom: 50px;
 }
