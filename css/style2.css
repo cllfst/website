@@ -21,8 +21,9 @@
 	-webkit-box-shadow: 0 0 15px rgba(98,98,98,0.32);
 }
 .w3layouts_work_grid_right h4{
-	font-size:1em;
-    color: #01a2a6;
+	text-align: center;
+	font-weight: bold;
+    color: #78bbe6;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -39,9 +40,10 @@
     text-transform: capitalize;
 }
 .w3layouts_work_grid_right p {
-    margin: 2em 0 0;
-    color: #444;
-    font-size: 16px;
+	margin-top: 30px;
+	margin-left: 40px;
+	color: #444;
+    font-size: 15px;
     line-height: 2.2em;
     letter-spacing: 1px;
 }

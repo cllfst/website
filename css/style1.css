@@ -407,3 +407,20 @@
     color: #ffffff;
     text-align: center;
 }
+
+
+#project-btn{
+    margin-top: 30px;
+    background-color: #78bbe6 ;
+    color:white;
+    font-size: 100%;
+    font-weight: 600;
+
+
+}
+#project-btn:hover{
+        background-color: #ffffff ;
+        border:1px solid black;
+        color:black ;
+        
+}
