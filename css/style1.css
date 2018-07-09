@@ -17,40 +17,16 @@
 	-o-border-radius: 50%;
 	-ms-border-radius: 50%;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .social .fb{
-    background: #78bbe6;
+    background: #1b435d;
 }
 .social .fb:before,
 .social .fb:after{
-    border-color:#78bbe6;
-}
-.social .tw{
-    background: #78bbe6;
-}
-.social .tw:before,
-.social .tw:after{
-    border-color: #78bbe6;
+    border-color:#1b435d;
 }
 
-.social .gp{
-    background: #78bbe6;
-}
-.social .gp:before,
-.social .gp:after
-{
-    border-color: #78bbe6;
-}
-
-.social .lin{
-    background: #3a9bdc;
-}
-.social .lin:before,
-.social .lin:after
-{
-    border-color: #3a9bdc;
-}
 .social a:before,
 .social a:after{
     content: "";
@@ -158,6 +134,74 @@
 
 
 /*-- //to-top --*/ 
+
+
+
+
+/*-- //contact-logo --*/ 
+.contact-logo, .contact-logo1, .contact-logo2{
+    height: 50px;
+    width: 50px;
+    background: #1b435d;
+    margin-top: 5px;
+    border-bottom-left-radius: 19px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+
+}
+.contact-logo:hover, .contact-logo1:hover, .contact-logo2:hover{
+    background: white;
+}
+
+
+
+
+.contact-logo a i{
+    line-height: 34px;
+    font-size: 32px;
+    color:white;
+    margin-top: 9px;
+    margin-left: 17px;
+}
+
+.contact-logo a i:hover{
+    color:black;
+}
+
+
+.contact-logo1 a i{
+    line-height: 34px;
+    font-size: 32px;
+    color:white;
+    margin-top: 9px;
+    margin-left: 12px;
+
+}
+
+.contact-logo1 a i:hover{
+    color:black;
+}
+
+.contact-logo2 a i{
+    line-height: 34px;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 14px;
+    color:white;
+}
+
+.contact-logo2 a i:hover{
+    color:black;
+}
+/*-- //contact-logo --*/ 
+
+
+/*--contact-back--*/
+.contact-bg{
+    background-image: url("../img/footer.jpg");
+    background-size: 100%;
+}
+/*--contact-back--*/
 
 
 .nav_logo{
@@ -278,7 +322,7 @@
 }
 
 #hover-white{
-    background-color: #DD4B39 ;
+    background-color: #1b435d ;
     color:white;
     font-weight: bold ;
 
@@ -347,4 +391,19 @@
 
 .margin-b-50{
     margin-bottom: 50px;
+}
+
+#get-in-touch{
+    margin-top: 20px;
+    font-size: 120%;
+    color: rgb(255, 247, 247);
+    font-weight: bold;
+
+}
+.contact-title{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    color: #ffffff;
+    text-align: center;
 }
