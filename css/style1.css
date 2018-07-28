@@ -340,40 +340,43 @@
     color : pink ;
 }
 
+
 .about-text{
     text-align: justify;
+    letter-spacing: 1px;
+    padding-bottom: 40px ;
+    padding-top: 30px ;
+    padding-left: 50px ;
+    padding-right:50px ;
+    background-color: #d5eeff ;
+    border-bottom: 7px solid #1b435d;
+    font-size: 110%;
+    line-height: 26px ;
+    
+    
 
+ 
 }
+#about-title{
+    font-family: "Roboto";
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color : #fff ;
+    font-size: 170%;
+    background-color: #1b435d ;
+    font-weight: 600 ;
+}
+
 #about-div{
     margin-top:35px;
 }
+
 #about-img{
     width: 100%;
     margin-top : 30px;
-}
-
-.act-box{
-    padding-top: 20px;
-    background-color: #d5eeff;
-
-}
-.act-text{
-    padding: 20px 50px 50px 50px;
-    line-height: 30px;
-    color: #696969 ;
-    text-align: justify;
-    font-size: 115%;
-
-}
-.act-title{
-    padding-left: 50px;
-    padding-bottom: 15px ;
-    font-weight: bold;
-    color:white
-}
-.act-title-box{
-    background-color: #1b435d;
-    padding: 20px
 }
 
 .border{
@@ -423,4 +426,25 @@
         border:1px solid black;
         color:black ;
         
+}
+
+.project-github-logo{
+    font-size :500%;
+}
+
+.project-github-logo i {
+    color:white;
+
+}
+
+.project-github-logo i:hover{
+    color:#78bbe6;
+
+}
+
+.summary{
+    padding: 20px ;
+    font-size: 100% ;
+    line-height: 25px ;
+    text-align: justify ;
 }
