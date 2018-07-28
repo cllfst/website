@@ -79,7 +79,6 @@
   padding: 3px 0;
 }
 .blog-card .details li:before, .blog-card .details .tags ul:before {
-  font-family: FontAwesome;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -103,7 +102,6 @@
 }
 .blog-card .details a {
   color: inherit;
-  border-bottom: 1px dotted;
 }
 .blog-card .details a:hover {
   color: #75D13B;

@@ -198,8 +198,8 @@
 
 /*--contact-back--*/
 .contact-bg{
-    background-image: url("../img/footer.jpg");
-    background-size: 100%;
+background-image: url('../img/footer.jpg');
+background-size: cover;
 }
 /*--contact-back--*/
 
@@ -364,7 +364,7 @@
 }
 .contact-title{
     font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Roboto";
     font-size: 200%;
     color: #ffffff;
     text-align: center;
@@ -401,9 +401,22 @@
 
 }
 
+.bluee{
+    color: #1b435d ;
+}
 
+.act-logo{
+    color:white;
+    font-size: 400% ;
+}
+.act-logo:hover{
+    color: #78bbe6;
+}
 
-
+.act-h5{
+    font-weight: bold;
+    margin-top:30px;
+}
 /* ---------------- RESPONSIVE ---------------------  */
 
 @media(max-width:1600px){
