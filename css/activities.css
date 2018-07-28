@@ -157,7 +157,6 @@
 .blog-card .description p {
   position: relative;
   margin: 0;
-  padding-top: 20px;
 }
 .blog-card .description p:after {
   content: "";

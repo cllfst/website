@@ -222,11 +222,9 @@
 }
 
 
-@media (min-width: 576px) {
-    .welcom-img{
-        height: 650px;
-        width: 1300px;
-    
+@media (min-width: 991px) {
+    .back{
+        background-color: #d5eeff ;
     }
     #Sur{
         z-index:3 ;
@@ -263,47 +261,8 @@
  }
 
 
- @media (max-width: 576px) {
-    .welcom-img{
-        height: 220px;
-        width: 100%;
-    
-    }
-    .home-section{
-        width: 100%;
-        text-align:center;
-        position: relative;
-
-    }
-    .intro-title {
-        color: #ffffff;
-        text-transform: uppercase;
-        margin: 0px 0px 20px 0px;
-        font-weight: 700;
-        font-size: 30%;
-      }
-    #Sur{
-        margin-top: 85px;
-        height:100px;
-    }
-    #hero {
-        height:200px;
-        width:100%;
-    
-        
-    }
-    #we-are{
-        display: inline;
-        color:black;
-    }
-
-    .title-img{
-        margin-top:90px;
-        width:65%;
-    }
     
     
- }
 
 
 
@@ -442,9 +401,580 @@
 
 }
 
-.summary{
-    padding: 20px ;
-    font-size: 100% ;
-    line-height: 25px ;
-    text-align: justify ;
+
+
+
+/* ---------------- RESPONSIVE ---------------------  */
+
+@media(max-width:1600px){
+    .JLL{
+        padding: 20px ;
+        font-size: 100% ;
+        line-height: 25px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 60px ;
+    }
+    .KEY{
+        padding: 10px ;
+        font-size: 100% ;
+        line-height: 30px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 50px ;
+    }
+
 }
+
+@media(max-width:1366px){
+    .KEY{
+        padding: 10px ;
+        font-size: 100% ;
+        line-height: 30px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 30px ;
+    }  
+    .welcom-img{
+        height: 700px;
+        width: 1400px;
+    
+    }  
+}
+
+@media(max-width:1280px){
+    .welcom-img{
+        height: 650px;
+        width: 1300px;
+    
+    }  
+}
+
+@media(max-width:1080px){
+    .JLL{
+        padding: 20px ;
+        font-size: 100% ;
+        line-height: 25px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 50px ;
+    }
+    .KEY{
+        padding: 10px ;
+        font-size: 90% ;
+        line-height: 30px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 40px ;
+    }
+    .welcom-img{
+        height: 650px;
+        width: 1100px;
+    
+    }  
+    
+}
+
+@media(max-width:1024px){
+    .KEY{
+        padding: 10px ;
+        font-size: 90% ;
+        line-height: 23px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 40px ;
+    }
+    .welcom-img{
+        height: 600px;
+        width: 1050px;
+    
+    }  
+}
+
+@media(max-width:991px){
+  
+    .welcom-img{
+        height: 600px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 240%;
+      }
+    #Sur{
+        margin-top: 100px;
+        height:80px;
+    }
+    #hero {
+        height:370px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    } 	
+}
+
+@media(max-width:900px){
+    .JLL{
+        padding: 10px ;
+        font-size: 95% ;
+        line-height: 25px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 30px ;
+    }	
+    .KEY{
+        padding: 10px ;
+        font-size: 88% ;
+        line-height: 23px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 30px ;
+    }
+    .welcom-img{
+        height: 450px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 240%;
+      }
+    #Sur{
+        margin-top: 100px;
+        height:80px;
+    }
+    #hero {
+        height:330px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+}
+
+@media(max-width:800px){
+    .KEY{
+        padding: 10px ;
+        font-size: 82% ;
+        line-height: 20px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 30px ;
+    }
+    .welcom-img{
+        height: 400px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 240%;
+      }
+    #Sur{
+        margin-top: 200px;
+        height:80px;
+    }
+    #hero {
+        height:300px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+}
+
+@media(max-width:768px){
+    .welcom-img{
+        height: 370px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:80px;
+    }
+    #hero {
+        height:300px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }	
+}
+
+
+
+@media(max-width:736px){
+    .JLL{
+        padding: 10px ;
+        font-size: 85% ;
+        line-height: 25px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 20px ;
+    }
+    .KEY{
+        padding: 10px ;
+        font-size: 82% ;
+        line-height: 17px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 30px ;
+    }
+
+    .welcom-img{
+        height: 370px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:80px;
+    }
+    #hero {
+        height:300px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+    
+
+}
+
+@media(max-width:667px){
+    .KEY{
+        padding: 10px ;
+        font-size: 82% ;
+        line-height: 17px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 20px ;
+    }
+    
+    .welcom-img{
+        height: 340px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:80px;
+    }
+    #hero {
+        height:250px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+    
+
+}
+
+@media(max-width:640px){
+   
+    
+    .welcom-img{
+        height: 360px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:80px;
+    }
+    #hero {
+        height:270px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+    
+}
+
+@media(max-width:600px){
+    .JLL{
+        padding: 20px ;
+        font-size: 100% ;
+        line-height: 25px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 60px ;
+    }
+
+    .KEY{
+        padding: 20px ;
+        font-size: 100% ;
+        line-height: 25px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 60px ;
+    }
+    .welcom-img{
+        height: 340px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:80px;
+    }
+    #hero {
+        height:250px;
+        width:100%;
+    
+        
+    }
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+    
+}
+
+@media(max-width:568px){
+    .welcom-img{
+        height: 310px;
+        width: 100%;
+    
+    }
+    .home-section{
+        width: 100%;
+        text-align:center;
+        position: relative;
+
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+        font-size: 30%;
+      }
+    #Sur{
+        margin-top: 85px;
+        height:100px;
+    }
+    
+    #we-are{
+        display: inline;
+        color:black;
+    }
+
+    .title-img{
+        margin-top:90px;
+        width:65%;
+    }
+    
+    
+ 
+}
+
+@media(max-width:480px){
+    .welcom-img{
+        height: 270px;
+        width: 100%;
+    
+    }
+}
+
+@media(max-width:414px){
+    .welcom-img{
+        height: 240px;
+        width: 100%;
+    
+    }
+	
+}
+
+@media(max-width:384px){
+
+    .welcom-img{
+        height: 220px;
+        width: 100%;
+    
+    }
+    #hero {
+        height:150px;
+        width:100%;
+    
+        
+    }
+}
+
+@media(max-width:375px){
+	.welcom-img{
+        height: 220px;
+        width: 100%;
+    
+    }
+}
+
+@media(max-width:320px){
+    .welcom-img{
+        height: 200px;
+        width: 100%;
+    
+    }
+}
+
+/* ---------------- RESPONSIVE ---------------------  */
+
+
