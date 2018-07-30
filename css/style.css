@@ -870,9 +870,7 @@ border-color: rgba(38, 44, 48, 0.2);
 /*========================================	
 	11.PURCHASE SECTION
 ===========================================*/
-.purchase-desc{
-	font-size: 28px;
-}
+
 /*=================================
 	12.SERVICE SECTION
 ===================================*/
@@ -1064,9 +1062,7 @@ border-color: rgba(38, 44, 48, 0.2);
     position: relative;
     top: 18px;
   }
-  .intro-title {
-  font-size: 30px;
-  }
+  
   .video-name{
     font-size:25px;
   }

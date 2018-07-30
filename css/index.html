@@ -36,44 +36,6 @@
 
         <!--Template Color-->
         <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
-        <style type="text/css">
-            .modal {
-                    display:none;
-                    position: fixed;
-                    z-index: 1;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    margin-bottom: 30%;
-                    overflow: auto;
-                    background-color: rgba(0,0,0,0.4);
-                }
-            /* Modal Content Box */
-            .modal-content {
-                background-color: transparent;
-                margin-top: 5%;
-                width: 80%; 
-
-            }
-            /* The Close Button (x) */
-            .close {
-                position: absolute;
-                right: 25px;
-                top: 0;
-                color: red;
-                font-size: 35px;
-                font-weight: bold;
-            }
-            .close:hover,.close:focus {
-                color: red;
-                cursor: pointer;
-            }
-            /* Add Zoom Animation */
-            .animate {
-                animation: zoom 0.6s
-            }
-        </style>
     </head>
 
     <body  data-spy="scroll" data-target="#data-scroll">  
@@ -154,7 +116,7 @@
             <div class="container">
                 <div class="row">
                     <div class="text-center">
-                        <img src="img/About us.png" class="img-responsive center-block title-img-about  " /> 
+                        <img src="img/About us.png" class="img-responsive center-block title-img  " /> 
                         <div id="about-div">
                             <div class="col-md-6"  >
                                 <h1 id="about-title">CLL : Club des Logiciels Libres</h1>
@@ -248,7 +210,7 @@
             </center>
         </div>
 	<div class="description" >
-		<h1 class="just res-size">JLL: Journées des Logiciels Libres</h1>
+		<h1 class="just">JLL: Journées des Logiciels Libres</h1>
 		<p class="JLL text-muted" >
                 As part of spreading the spirit of open source, the CLLFST organizes, each year,
                 Free Software Day :
@@ -276,7 +238,7 @@
             </center>
         </div>
 	<div class="description">
-		<h1 class="inv res-size">KEY: Keep Extending Yourself</h1>
+		<h1 class="inv">KEY: Keep Extending Yourself</h1>
 		<p class="KEY text-muted">
                 The key, a sign of communication, a strong symbol of knowledge, refers to what makes it possible to understand and interpret. To possess the key is to possess the means to access a wealth, a discovery. In this context, the Club of Free Software at the Faculty of Sciences of Tunis (CLLFST) organizes with full of enthusiasm and motivation, the event
                 KEY who will expand the horizons of knowledge, and give its participants access to an intoxicating cultural mix through 'quality debates'. An innovative conference that will not only provide an opportunity to broaden the spirit, but also contribute to
@@ -300,7 +262,7 @@
             </center>
         </div>
 	<div class="description">
-		<h1 class="just res-size">SFD: Software Freedom Day</h1>
+		<h1 class="just">SFD: Software Freedom Day</h1>
 		<p class="JLL text-muted">
             "Software Freedom Day". This festival is an annual event launched with the aim of initiating
             the general public to free software and invite them to enjoy it in various fields; ?? s education
@@ -327,7 +289,7 @@
             </center>
         </div>
 	<div class="description">
-		<h1 class="inv res-size">Rencontres Mondiales du Logiciel Libre</h1>
+		<h1 class="inv">Rencontres Mondiales du Logiciel Libre</h1>
 		<p class="JLL text-muted">
                 WE NEED A PARAGRAPH
         </p>
@@ -348,7 +310,7 @@
             </center>
     </div>
 	<div class="description">
-		<h1 class="just res-size">Richard Stallman Conference</h1>
+		<h1 class="just">Richard Stallman Conference</h1>
 		<p  class="JLL text-muted">
                 Mid-February, the media woke up on the news of the arrival of RMS in Tunis.
                 Richard Stallman, who initiated the free software movement in 1983, was invited and welcomed by
@@ -373,7 +335,7 @@
             </center>
         </div>
 	<div class="description ">
-		<h1 class="inv res-size">Workshops</h1>
+		<h1 class="inv">Workshops</h1>
 		<p class="JLL text-muted">
                 WE NEED A PARAGRAPH
         </p>
@@ -393,7 +355,7 @@
             </center>
         </div>
 	<div class="description  ">
-		<h1 class="just res-size">Entertainment Activities</h1>
+		<h1 class="just">Entertainment Activities</h1>
 		<p class="JLL text-muted">
             WE NEED A PARAGRAPH 
         </p>
@@ -408,23 +370,14 @@
 <!--END SECTION-->
 
         <!--START VIDEO SECTION-->
-        <section class="section parallax" data-parallax="scroll" data-image-src="img/KEY2.jpg" style="margin-top:120px">
+        <section class="section parallax" data-parallax="scroll" data-image-src="img/vid.png" style="margin-top:120px">
             <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row padding-t-b-100">
-                        <p class="text-white video-name text-center position-relative">We Work&nbsp;<a href="#" onclick="document.getElementById('modal-wrapper1').style.display='block';vid.play() ;return false" class="text-white popup-video"><i class="mdi mdi-play-circle"></i></a>&nbsp;Just For You</p>
+                        <p class="text-white video-name text-center position-relative">We Work&nbsp;<a href="aa.mp4" class="text-white popup-video"><i class="mdi mdi-play-circle"></i></a>&nbsp;Just For You</p>
                 </div>
             </div>
         </section>
-        <div id="modal-wrapper1" class="modal">
-            <div class="container modal-content" >
-                <span onclick="document.getElementById('modal-wrapper1').style.display='none';vid.pause()" class="close" title="Close PopUp">&times;</span>
-                <div class="row"><video width="100%" height="100%" id="myVid" controls>
-                <source src="aa.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>  </div>
-            </div>
-        </div>
         <!--END VIDEO SECTION-->
 
         <!--START PROJECT-->
@@ -722,7 +675,7 @@
             <div class="container "  >
                 <div class="row">
                     <div class="text-center">
-                        <img src="img/contact.png" class="img-responsive center-block title-img-get" />
+                        <img src="img/contact.png" class="img-responsive center-block title-img" />
                         <div id="get-in-touch">
                             <p class="bluee">Question?  Comment?  We're Always Happy to Help</p>
                             <p class="bluee">GET IN TOUCH WITH US</p>
@@ -969,18 +922,5 @@
         </script>
          <!-- //smooth scrolling -->
 
-         <!-- video modal -->
-         <script type="text/javascript">
-            var vid = document.getElementById("myVid"); 
-            var modal1 = document.getElementById('modal-wrapper1');
-            window.onclick = function(event) {
-                if ((event.target == modal1) ) {
-                    modal1.style.display = "none";
-                    vid.pause();
-                }
-            } 
-         </script>
-         <!-- video modal -->
-         
     </body>
 </html>
