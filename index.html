@@ -12,10 +12,6 @@
 
         
 
-        <!--GOOGLE FONT-->
-        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
-
-
         <!--added style-->
         <link rel="stylesheet" type="text/css" href="css/style1.css" />
         <link rel="stylesheet" type="text/css" href="css/style2.css" />   
@@ -23,7 +19,14 @@
         <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
         <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
 
-       
+        <!-- popup-->
+        <link rel="stylesheet" href="css/magnific-popup.css"/> 
+
+        <!--slider image-->
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        <link href="css/owl.transitions.css" rel="stylesheet">
+
         
         <!--ET-LINE-ICON-->
         <link rel="stylesheet" type="text/css" href="css/et-lineicon.css" />
@@ -36,44 +39,7 @@
 
         <!--Template Color-->
         <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
-        <style type="text/css">
-            .modal {
-                    display:none;
-                    position: fixed;
-                    z-index: 1;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    margin-bottom: 30%;
-                    overflow: auto;
-                    background-color: rgba(0,0,0,0.4);
-                }
-            /* Modal Content Box */
-            .modal-content {
-                background-color: transparent;
-                margin-top: 5%;
-                width: 80%; 
-
-            }
-            /* The Close Button (x) */
-            .close {
-                position: absolute;
-                right: 25px;
-                top: 0;
-                color: red;
-                font-size: 35px;
-                font-weight: bold;
-            }
-            .close:hover,.close:focus {
-                color: red;
-                cursor: pointer;
-            }
-            /* Add Zoom Animation */
-            .animate {
-                animation: zoom 0.6s
-            }
-        </style>
+       
     </head>
 
     <body  data-spy="scroll" data-target="#data-scroll">  
@@ -407,26 +373,19 @@
 
 <!--END SECTION-->
 
+       
         <!--START VIDEO SECTION-->
-        <section class="section parallax" data-parallax="scroll" data-image-src="img/KEY2.jpg" style="margin-top:120px">
+        <section class="section parallax" data-parallax="scroll" data-image-src="img/vid.png" style="margin-top:120px">
             <div class="bg-overlay"></div>
             <div class="container">
                 <div class="row padding-t-b-100">
-                        <p class="text-white video-name text-center position-relative">We Work&nbsp;<a href="#" onclick="document.getElementById('modal-wrapper1').style.display='block';vid.play() ;return false" class="text-white popup-video"><i class="mdi mdi-play-circle"></i></a>&nbsp;Just For You</p>
+                        <p class="text-white video-name text-center position-relative">We Work&nbsp;<a href="aa.mp4" class="text-white popup-video"><i class="mdi mdi-play-circle"></i></a>&nbsp;Just For You</p>
                 </div>
             </div>
         </section>
-        <div id="modal-wrapper1" class="modal">
-            <div class="container modal-content" >
-                <span onclick="document.getElementById('modal-wrapper1').style.display='none';vid.pause()" class="close" title="Close PopUp">&times;</span>
-                <div class="row"><video width="100%" height="100%" id="myVid" controls>
-                <source src="aa.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video>  </div>
-            </div>
-        </div>
         <!--END VIDEO SECTION-->
 
+       
         <!--START PROJECT-->
         <section class="section bg-gray" id="works">
             <div class="container">
@@ -584,13 +543,6 @@
                                     </li>
 
 
-
-
-
-
-
-
-
                                     <li>
                                         <div class="w3layouts_work_grid_left">
                                             <img src="img/SUMO.jpg" alt=" " class="img-responsive" />
@@ -673,22 +625,6 @@
         <!--END PROJECT-->
 
 
-
-
-        <!--
-        <section class="section bg-custom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9 text-white purchase-desc">
-                    Become a part of CLLFST Open Source Community
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#" class="btn btn-white">Join Us Now</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
 
         <!--START BLOG-->
         <section class="section" id="blog">
@@ -853,8 +789,7 @@
 
        
 
-
-
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
         <script src="./jquery-1.11.1.js"></script>
 
         <script type="text/javascript">
@@ -897,7 +832,9 @@
         <script type="text/javascript" src="js/isotope.js"></script>
         <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script> 
         <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>  
+        <script type="text/javascript" src="js/masonry.pkgd.min.js"></script> 
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+ 
         <!--TYPED JS-->
         <script type="text/javascript" src="js/typed.js"></script>
         <!-- Sticky Header -->
@@ -905,19 +842,7 @@
 
         <script src="js/app.js"></script>
 
-        <script type="text/javascript">
-             $(".element").each(function(){
-            var $this = $(this);
-            $this.typed({
-            strings: $this.attr('data-elements').split(','),
-            typeSpeed: 100, // typing speed
-            backDelay: 3000 // pause before backspacing
-            });
-        });
-            $(".player").mb_YTPlayer();
-        </script>
-
-
+       
 
 
       <!-- flexSlider -->
