@@ -257,3 +257,29 @@
     margin-top: 40px ;
   }
 }
+
+
+
+@media screen and (min-width: 1500px) {
+  .blog-card {
+    height: 470px;
+    max-width: 1400px;
+  }
+  
+}
+
+@media screen and (min-width: 1700px) {
+  .blog-card {
+    height: 600px;
+    max-width: 1800px;
+  }
+  
+}
+
+
+
+
+
+
+
+

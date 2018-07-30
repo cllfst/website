@@ -363,57 +363,1368 @@ background-size: cover;
     margin-top:30px;
 }
 /* ---------------- RESPONSIVE ---------------------  */
-@media(min-width:2501px){
+@media(min-width:2401px){
+    .welcom-img{
+        height: 1300px;
+        width: 2500px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 500px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:680px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
+
 }
 
-@media(max-width:2500px){
-}
+
+
+
+
+
+
 
 @media(max-width:2400px){
+    .welcom-img{
+        height: 1200px;
+        width: 2350px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 500px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:600px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
+
 }
 
 @media(max-width:2300px){
+    .welcom-img{
+        height: 1120px;
+        width: 2250px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 500px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:520px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
 }
+
+
+
+
+
+
+
+
 
 @media(max-width:2200px){
+    .welcom-img{
+        height: 1070px;
+        width: 2150px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 480px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:480px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
 }
+
+
+
+
+
+
+
+
+
 
 @media(max-width:2100px){
+    .welcom-img{
+        height: 1020px;
+        width: 2050px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 420px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:400px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
 }
+
+
+
+
+
+
+
 
 @media(max-width:2000px){
+    .welcom-img{
+        height: 970px;
+        width: 1950px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 420px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:290px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:1900px){
+    .welcom-img{
+        height: 920px;
+        width: 1850px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 420px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 140%;
+        line-height: 30px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:290px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:1800px){
+    .welcom-img{
+        height: 860px;
+        width: 1720px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 420px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 40px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 130%;
+        line-height: 29px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 220%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:290px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 40px ;
+        font-size: 170% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 100px ;
+    }
+    .KEY{
+        padding: 40px ;
+        font-size: 160% ;
+        line-height: 40px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:1700px){
-}
+    .welcom-img{
+        height: 800px;
+        width: 1630px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 300px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+   
+    #we-are{
+        color:white;
+        display: inline;
 
-@media(max-width:1600px){
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 32px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 110%;
+        line-height: 29px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 180%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:190px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
     .JLL{
         padding: 20px ;
-        font-size: 100% ;
-        line-height: 25px ;
+        font-size: 130% ;
+        line-height: 35px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 70px ;
+    }
+    .KEY{
+        padding: 20px ;
+        font-size: 130% ;
+        line-height: 35px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 43px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1600px){
+    .welcom-img{
+        height: 770px;
+        width: 1520px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 300px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 32px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 37px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 110%;
+        line-height: 29px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 200%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:10px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:35%;
+    }
+    .title-img-about{
+        margin-top:160px;
+        width:35%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:35%;
+    }
+
+    .JLL{
+        padding: 20px ;
+        font-size: 130% ;
+        line-height: 32px ;
         text-align: justify ;
         vertical-align:middle;
         padding-top: 60px ;
     }
     .KEY{
-        padding: 10px ;
-        font-size: 100% ;
+        padding: 20px ;
+        font-size: 130% ;
+        line-height: 32px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 43px ;
+    }
+
+    .w3layouts_work_grid_right {
+		padding: 5em 15em 0em 5em;
+		margin-top: 2.5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1500px){
+    .welcom-img{
+        height: 730px;
+        width: 1450px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 300px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    #hero {
+        height:150px;
+        width:100%;    
+    }
+    #we-are{
+        color:white;
+        display: inline;
+
+    }
+
+    .purchase-desc{
+        font-size: 29px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 32px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 100%;
+        line-height: 26px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 170%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:25px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:30%;
+    }
+    .title-img-about{
+        margin-top:100px;
+        width:30%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:30%;
+    }
+
+    .JLL{
+        padding: 20px ;
+        font-size: 120% ;
         line-height: 30px ;
         text-align: justify ;
         vertical-align:middle;
-        padding-top: 50px ;
+        padding-top: 60px ;
+    }
+    .KEY{
+        padding: 20px ;
+        font-size: 120% ;
+        line-height: 28px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 35px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1430px){
+    .welcom-img{
+        height: 720px;
+        width: 1400px;
+    
+    }  
+    #Sur{
+        z-index:3 ;
+        margin-top: 300px;
+    }
+    
+    
+    .home-section{
+        width: 100%;
+        min-height: 650px;
+        text-align:center;
+        position: relative;
+    }
+    .intro-title {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 48px;
+        margin: 0px 0px 20px 0px;
+        font-weight: 700;
+      }
+    #hero {
+        height:500px;
+        width:100%;
+    }
+    #hero {
+        height:150px;
+        width:100%;    
+    }
+    #we-are{
+        color:white;
+        display: inline;
+
     }
 
+    .purchase-desc{
+        font-size: 29px;
+        margin-bottom: 28px ;
+    }
+
+    .res-size{
+        font-size: 32px ;
+    }
+    .about-text{
+        text-align: justify;
+        letter-spacing: 1px;
+        padding-bottom: 40px ;
+        padding-top: 40px ;
+        padding-left: 40px ;
+        padding-right:40px ;
+        background-color: #d5eeff ;
+        border-bottom: 7px solid #1b435d;
+        font-size: 100%;
+        line-height: 26px ;
+    }
+
+    #about-title{
+        font-family: "Roboto";
+        margin: 0px;
+        padding-top: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 18px;
+        color : #fff ;
+        font-size: 170%;
+        background-color: #1b435d ;
+        font-weight: 600 ;
+        margin-top:25px;
+    }
+
+    .title-img{
+        margin-top:55px;
+        width:30%;
+    }
+    .title-img-about{
+        margin-top:100px;
+        width:30%;
+    }
+    .title-img-get{
+        margin-top:0px;
+        width:30%;
+    }
+
+    .JLL{
+        padding: 20px ;
+        font-size: 110% ;
+        line-height: 28px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 60px ;
+    }
+    .KEY{
+        padding: 20px ;
+        font-size: 110% ;
+        line-height: 30px ;
+        text-align: justify ;
+        vertical-align:middle;
+        padding-top: 38px ;
+    }
+
+    
 }
-@media(max-width:1500px){
-}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -752,12 +2063,13 @@ background-size: cover;
     .welcom-img{
         height: 650px;
         width: 1145px;
-    
     }
+
     #hero {
         height:150px;
         width:100%;    
     }
+
     .home-section{
         width: 100%;
         text-align:center;
