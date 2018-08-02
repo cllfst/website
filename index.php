@@ -693,31 +693,31 @@
                 </div>
                 <div class="row ">
 
-                <form class="margin-t-50 margin-b-50 margin-r-l-35">
+                <form class="margin-t-50 margin-b-50 margin-r-l-35" action="traitement.php" method="POST">
                     <div class="col-md-4">
 
                         <div>
                             <h2 class="contact-title bluee">SAY HELLO!</h2>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="username" placeholder="Name" required />
+                                <input type="text" class="form-control" id="username" name="Name" placeholder="Name" required />
                             </div>
                         </div>
 
                         <div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="useremail" placeholder="Email" required />
+                                <input type="email" class="form-control" id="useremail" name="Email" placeholder="Email" required />
                             </div>
                         </div>
                         <div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject.." required />
+                                <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject.." required />
                             </div>
                         </div>
                     
                     <div>
                         <div >
                             <div class="form-group">
-                                <textarea class="form-control" rows="5" id="message" placeholder="Message...." required></textarea>
+                                <textarea class="form-control" rows="5" id="message" name="Message" placeholder="Message...." required></textarea>
                             </div>
                         </div>
                     </div>
