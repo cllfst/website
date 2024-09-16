@@ -28,6 +28,10 @@
   position: relative;
 }
 
+.blog-card .photo.photo0 {
+  background: url("../img/genesis.jpg") center no-repeat;
+  background-size: cover;
+}
 .blog-card .photo.photo1 {
   background: url("../img/JLL.jpg") center no-repeat;
   background-size: cover;
@@ -48,7 +52,7 @@
   background-size: cover;
 }
 .blog-card .photo.photo6{
-  background: url("../img/WORkSHOP.jpg") center no-repeat;
+  background: url("../img/workshopet.jpg") center no-repeat;
   background-size: cover;
 }
 .blog-card .photo.photo7 {
